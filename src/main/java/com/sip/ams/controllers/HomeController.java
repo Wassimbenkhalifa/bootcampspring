@@ -24,7 +24,7 @@ public class HomeController {
 	public String info(Model model)
 	{
 		ArrayList<String> names = new ArrayList<>();
-		names.add("OCA");
+		names.add("OCa");
 		names.add("OCP");
 		names.add("Spring");
 		model.addAttribute("names", names);
