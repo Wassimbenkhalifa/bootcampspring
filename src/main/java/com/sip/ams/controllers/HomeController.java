@@ -23,8 +23,9 @@ public class HomeController {
 	@RequestMapping("/info") // ce que je tape dans l'url
 	public String info(Model model)
 	{
+		
 		ArrayList<String> names = new ArrayList<>();
-		names.add("OCa");
+		names.add("OCA");
 		names.add("OCP");
 		names.add("Spring");
 		model.addAttribute("names", names);
