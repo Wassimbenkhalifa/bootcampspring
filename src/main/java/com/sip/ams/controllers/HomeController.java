@@ -27,7 +27,7 @@ public class HomeController {
 		ArrayList<String> names = new ArrayList<>();
 		names.add("OCA");
 		names.add("OCP");
-		names.add("Spring");
+		names.add("spring");
 		model.addAttribute("names", names);
 		String formation = "Fullstack";
 		System.out.println("Méthode info");
